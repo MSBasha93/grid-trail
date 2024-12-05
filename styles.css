@@ -1,17 +1,16 @@
 .container{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;     /* Adjust based on your layout */
-    height: 100vh;   /* Adjust based on your layout */
     justify-content: center; /* Center items horizontally (optional) */
     align-items: center; /* Center items vertically (optional) */
+    width: 100vw; 
+    height: 100vh;
 
 }
 .child {
     background-color: blue;
     border: 1px solid #ccc;
-    width: calc(100% / 16);
-    height: calc(100% / 16);
     box-sizing: border-box;
-    flex: 1 0 1;
+ 
+    transition: background-color 0.3s ease;
 }
